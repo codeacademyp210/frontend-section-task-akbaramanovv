@@ -1,0 +1,70 @@
+.visual{
+    display: flex;
+}
+.visual a{
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.visual li{
+    padding: 10px 15px;
+    border:1px solid black;
+    margin-right: 10px;
+}
+.divContent{
+    position: absolute;
+    left:0;
+    top:0;
+    opacity: 0;
+}
+.opacity1{
+    opacity: 1 !important;
+}
+.opacity0{
+    opacity: 0 !important;
+}
+#accordionHeader{
+    font-size: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;   
+}
+.akordionContent{
+    transition: all 0.6s;
+    height: 0px;
+    overflow: hidden;
+}
+#getMore{
+    position: relative;
+    background-image: url('../images/ccc.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+#getMore::after{
+content:"";
+position: absolute;
+left:0;
+top:0;
+width: 100%;
+height: 100%;
+background-color: #272727c9
+}
+    .pageHeader{
+        z-index: 3;
+        padding: 70px 0px;
+    }
+.pageHeader h1{
+text-align: center;
+font-weight: 700px;
+font-size:30px;
+color:white;
+font-family: sans-serif;
+}
+.pageHeader h2{
+    text-align: center;
+    font-weight: 400px;
+    font-size:20px;
+    color:white;
+    font-family: sans-serif;
+    }
+
+
